@@ -78,4 +78,9 @@ startGame = () => {
 
     ++questionNumber
    progressText.innerHTML = `Question ${questionNumber} out of ${maximumQuestions}`
+    
+   const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+   currentQuestion = availableQuestions[questionsIndex]
+   question.innerHTML = currentQuestion.question
+
  }
