@@ -83,4 +83,13 @@ startGame = () => {
    currentQuestion = availableQuestions[questionsIndex]
    question.innerHTML = currentQuestion.question
 
+   choices.forEach(choice => {
+    const number = choice.dataset['number']
+    choice.innerHTML = currentQuestion['choice' + number]
+  })
+  
+  availableQuestions.splice(questionsIndex, 1)
+ 
+  acceptingAnswers = true
+
  }
