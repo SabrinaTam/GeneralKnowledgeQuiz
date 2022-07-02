@@ -18,7 +18,7 @@ let questions = [{
         answer: 1,
     },
     {
-        question: "What does He stand for on the periodic table?",
+        question: "What does 'He' stand for on the periodic table?",
         choice1: "Holmium",
         choice2: "Hydrogen",
         choice3: "Helium",
