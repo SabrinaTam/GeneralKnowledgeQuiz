@@ -1,0 +1,59 @@
+body {
+    color: #fff;
+ }
+  
+ .choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    background: purple;
+    border-radius: 5px;
+    min-width: 80rem;
+    font-size: 3rem;
+ }
+  
+ .choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.3rem 1.4rem 0 purple;
+    transform: scale(1.03);
+ }
+  
+ .choice-prefix {
+    padding: 2rem 2rem;
+    color: white;
+ }
+  
+ .choice-text {
+    padding: 2rem;
+    width: 100%;
+ }
+  
+ .correct {
+    background: greenyellow;
+ }
+  
+ .incorrect {
+    background:red;
+ }
+  
+ /* Heads up Display */
+ #hud {
+    display: flex;
+    justify-content: space-between;
+ }
+  
+ .hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+ }
+  
+ .hud-main-text {
+    text-align: center;
+ }
+  
+ @media screen and (max-width: 770px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+ }
+ 
